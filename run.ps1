@@ -1,4 +1,4 @@
-# FinTech MVP full-stack launcher
+# Fintech project full-stack launcher
 # Run this file from PowerShell inside the project directory:
 #   .\run.ps1
 $ErrorActionPreference = "Stop"

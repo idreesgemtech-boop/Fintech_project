@@ -1,4 +1,4 @@
-# SynxEx Architecture
+# Fintech project Architecture
 
 Core principle: one identity + shared financial infrastructure + domain services.
 

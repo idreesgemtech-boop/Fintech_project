@@ -1,4 +1,4 @@
-# FinTech MVP — Full Stack
+# Fintech project — Full Stack
 
 This package combines the existing FastAPI backend and React frontend into one project.
 

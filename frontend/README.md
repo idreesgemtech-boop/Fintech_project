@@ -1,5 +1,5 @@
-# FinTech MVP Frontend
-React + Vite customer-facing frontend for the existing FastAPI FinTech MVP.
+# Fintech project Frontend
+React + Vite customer-facing frontend for the Fintech project FastAPI application.
 
 ## Run
 ```powershell

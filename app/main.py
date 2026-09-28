@@ -17,7 +17,7 @@ from .services.trading import find_matches
 
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(title="SynxEx Assessment MVP", version="1.0.0")
+app = FastAPI(title="Fintech project", version="1.0.0")
 
 # ---------- Schemas ----------
 class UserIn(BaseModel):
@@ -395,7 +395,7 @@ def frontend_home():
     index = os.path.join(FRONTEND_DIST, "index.html")
     if os.path.isfile(index):
         return FileResponse(index)
-    return {"message": "SynxEx MVP API is running. Build the frontend with: cd frontend; npm install; npm run build"}
+    return {"message": "Fintech project API is running. Build the frontend with: cd frontend; npm install; npm run build"}
 
 @app.get("/{frontend_path:path}", include_in_schema=False)
 def frontend_fallback(frontend_path: str):
